@@ -1,0 +1,146 @@
+:root{
+    --text-color:hsl(228, 45%, 44%);
+    --main-background-color:hsl(222, 26%, 31%);
+    --toggle-background-color: hsl(223, 31%, 20%);
+    --screen-background-color:hsl(224, 36%, 15%);
+    --red:hsl(6, 63%, 50%);
+
+    /* Theme 2 */
+    --back-color:hsl(268, 75%, 9%);
+    --scr-color:hsl(268, 71%, 12%);
+    --key-background:hsl(281, 89%, 26%);
+    --key-shadow:hsl(285, 91%, 52%);
+    --text-color2:hsl(52, 100%, 62%);
+    --dark-blue:hsl(176, 100%, 44%);
+}
+body{
+    background-color: var(--main-background-color);
+    color: white;
+}
+.sectionMain{
+    width: 50%;
+    position: absolute;
+    top: 10% !important;
+    left: 50%;
+    transform: translate(-55%,-50%);
+}
+.divTitle{
+    display: flex;
+    justify-content: space-around;
+}
+.divTitle div{
+    display: flex;
+    justify-content: center;
+}
+.section_123{
+    margin-left: 40px;
+    position: relative;
+    top: 15px;
+    background-color: var(--screen-background-color);
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+}
+.section_123 div{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--red);
+}
+.number123{
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 62%;
+    right: 17.5%;
+}
+#TheSum{
+    overflow: hidden;
+}
+.The_Answer{
+    background-color: var(--screen-background-color);
+    width: 60%;
+    height: 100px;
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left:150px;
+    padding: 0 20px;
+    text-align: end;
+    font-size: 40px;
+}
+.The_Answer h4{
+    position: relative;
+    bottom: 25%;
+}
+.TheMain{
+    background-color: var(--screen-background-color);
+    width:60%;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+    top: 220px ;
+    left:150px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.TheRow1{
+    display: flex;
+    justify-content: space-around;
+}
+.row1{
+    color: var(--text-color);
+    background-color: white;
+    width: 15%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.row1:hover{
+    background-color: rgb(199, 196, 196);
+    cursor: pointer;
+}
+.TheRow2{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.DEL{
+    background-color:var(--text-color);
+    color: white;
+}
+.DEL:hover{
+    background-color:hsl(228, 45%, 32%);
+    cursor: pointer;
+}
+.RESET,.sum{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    width: 40%;
+    height: 50px;
+    background-color:var(--text-color);
+    border-radius: 10px;
+}
+.RESET:hover{
+    background-color:hsl(228, 45%, 32%);
+    cursor: pointer;
+}
+.sum{
+    background-color: var(--red);
+}
+.sum:hover{
+    background-color: hsl(6, 66%, 37%);
+    cursor: pointer;
+}
+
+
+
+
+
+

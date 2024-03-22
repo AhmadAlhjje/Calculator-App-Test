@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobil.css">
+</head>
+<body id="body">
+    <section class="sectionMain">
+        <div class="divTitle">
+            <h2 id="calc">calc</h2>
+            <div>
+                <p id="THEME">THEME</p>
+                <section class="number123">
+                    <p id="n1">1</p>
+                    <p id="n1">2</p>
+                    <p id="n1">3</p>
+                </section>
+                <section class="section_123"><div id="btn_color"></div></section>
+            </div>
+        </div>
+        <div class="The_Answer"><h4 id="TheSum"></h4></div>
+        <div class="TheMain">
+            <section class="TheRow1">
+                <div class="row1" id="num7" onclick="appendToDisplay('7')">7</div>
+                <div class="row1" id="num8" onclick="appendToDisplay('8')">8</div>
+                <div class="row1" id="num9" onclick="appendToDisplay('9')">9</div>
+                <div class="row1 DEL" id="delet">DEL</div>
+            </section>
+
+            <section class="TheRow2">
+                <div class="row1" id="num4" onclick="appendToDisplay('4')">4</div>
+                <div class="row1" id="num5" onclick="appendToDisplay('5')">5</div>
+                <div class="row1" id="num6" onclick="appendToDisplay('6')">6</div>
+                <div class="row1" onclick="appendToDisplay('+')">+</div>
+            </section>
+
+            <section class="TheRow2">
+                <div class="row1" id="num1" onclick="appendToDisplay('1')">1</div>
+                <div class="row1" id="num2" onclick="appendToDisplay('2')">2</div>
+                <div class="row1" id="num3" onclick="appendToDisplay('3')">3</div>
+                <div class="row1" onclick="appendToDisplay('-')">-</div>
+            </section>
+
+            <section class="TheRow2">
+                <div class="row1" onclick="appendToDisplay('.')">.</div>
+                <div class="row1" onclick="appendToDisplay('0')">0</div>
+                <div class="row1" onclick="appendToDisplay('/')">/</div>
+                <div class="row1" onclick="appendToDisplay('*')">x</div>
+            </section>
+
+            <section class="TheRow2">
+                <div class="RESET" id="res">RESET</div>
+                <div class="sum" id="TheEnd">=</div>
+            </section>
+        </div>
+    </section>
+
+    <script src="scrept.js"></script>
+</body>
+</html>
